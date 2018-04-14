@@ -20,3 +20,15 @@ img {
   background: #5ab75d;
   color: white;
 }
+
+.panel-footer, .panel-heading {
+  width: 100%;
+}
+
+.panel {
+  padding: 0;
+}
+
+.panel-body {
+  height: 400px;
+}

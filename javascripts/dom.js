@@ -5,7 +5,7 @@ const writeToDom = (myInnerds, myElement) => {
 const buildDomString = (petArray) => {
   let myString = '';
   petArray.forEach(pet => {
-    myString += `<div class="panel panel-default ${pet.type} col-sm-4">`;
+    myString += `<div class="panel panel-default ${pet.type} col-sm-4 col-lg-4">`;
     myString +=   `<div class="panel-heading">`;
     myString +=     `<h3 class="panel-title">${pet.name}</h3>`;
     myString +=   `</div>`;

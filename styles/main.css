@@ -1,3 +1,34 @@
 body {
   background-color: oldlace;
 }
+
+img {
+  width: 100%;
+}
+
+.dino-foot {
+  background: #efac50;
+  color: white;
+}
+
+.cat-foot {
+  background: #3479b6;
+  color: white;
+}
+
+.dog-foot {
+  background: #5ab75d;
+  color: white;
+}
+
+.panel-footer, .panel-heading {
+  width: 100%;
+}
+
+.panel {
+  padding: 0;
+}
+
+.panel-body {
+  height: 400px;
+}
